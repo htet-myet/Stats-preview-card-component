@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.spcc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    color: #fff;
+    background-color:  hsl(233, 47%, 7%);
+    
+
+}
+
+.spcc-div{
+    width: 340px;
+    height: 840px;
+    background-color: hsl(244, 38%, 16%);
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.spcc-img-bc{
+    background-color: hsl(277, 80%, 32%);
+    height: 300px;
+}
+
+.spcc-img{
+   width: 340px;
+   opacity: 50%;
+   height: 300px;
+   
+}
+
+.spcc-middle{
+    padding: 25px;
+}
+
+.spcc-lable{
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.insight{
+    text-decoration: none;
+}
+
+.spcc-content{
+    font-size: 16px;
+    line-height: 25px;
+    padding: 20px 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.spcc-last-typenumber{
+    padding: 15px 0;
+    
+}
+
+.number{
+    font-size: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+   
+}
+
+.type{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+}
+
+@media screen and (min-width:1000px) {
+
+    .spcc{
+        height: 100vh;
+    }
+
+    .spcc-div{
+        display: flex;
+        width: 1200px;
+        flex-direction: row-reverse;
+        height: 450px;
+    }
+
+    .spcc-img-bc{
+        height: 450px;
+    }
+
+    .spcc-img{
+      width: 600px;
+      height: 450px;
+    }
+
+    .spcc-middle{
+       padding: 50px 160px 60px 40px;
+    }
+
+    .spcc-lable{
+        font-size: 36px;
+    }
+
+    .spcc-content{
+        text-align: left;
+        padding-top: 40px;
+       
+    }
+
+    .spcc-last{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+}
